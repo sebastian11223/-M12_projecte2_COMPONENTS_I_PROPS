@@ -1,5 +1,6 @@
-import './Styles/App.css';
-import pasta from './Imatges/menu_pasta.jpg';
+import '../Styles/App.css';
+import pasta from '../Imatges/menu_pasta.jpg';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ const Texto = () => {
   <h2 className='mensajeTextoGrande'>Activitat on hem de crear un component i passar diferents valors</h2>
   )
 }
+
 
 const DivGrandeUno = (props) => {
   return (
